@@ -1,16 +1,98 @@
+/* yellow */
+/* white */
+/* black */
+/* darkblue */
+body {
+  width: 1374px;
+  margin: 0 auto;
+  background-color: #F8F8FF;
+}
+
 .splash {
-  background-color: #51d17c;
+  background-image: url("https://image.shutterstock.com/image-vector/rock-scissors-paper-hand-gesture-260nw-689530327.jpg");
+  min-height: 500px;
+  display: -ms-flexbox;
+  display: flex;
+  /* flex wazne */
+  text-align: center;
+  background-size: cover;
+}
+
+.splash-inner {
+  margin-left: 100px;
+  margin-top: 80px;
+  max-width: 70%;
 }
 
 .splash h1 {
-  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+  color: #000000;
+  margin-left: 100px;
 }
 
 .splash h2 {
+  font-family: "Oswald", sans-serif;
+  color: #000000;
   font-size: 40px;
+  margin-left: 100px;
+}
+
+.howtoplay .container {
+  background-color: #4C4D4F;
+}
+
+.howtoplay .container h1 {
+  font-family: "Oswald", sans-serif;
+  color: #FFD700;
+  text-align: center;
 }
 
 .btn {
-  color: blue;
+  background-color: #FFD700;
+  color: #000000;
+  padding: 15px 32px;
+  font-size: 16px;
+  margin: 0 auto;
+  display: block;
+}
+
+.btn p {
+  color: #000000;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.result {
+  font-family: "Oswald", sans-serif;
+  color: #000000;
+  text-align: center;
+  font-size: 45px;
+}
+
+.footer {
+  background-color: #F8F8FF;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.footer h1 {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.footer li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.footer li .fab {
+  font-size: 42px;
+  color: #000000;
+  padding: 5px;
+}
+
+.col {
+  padding: 30px;
 }
 /*# sourceMappingURL=style.css.map */

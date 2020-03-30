@@ -1,15 +1,116 @@
-$color-one: #51d17c;
+$color-one: #FFD700;   /* yellow */
+$color-two: #F8F8FF;   /* white */
+$color-three: #000000; /* black */
+$color-four: #4C4D4F;  /* darkblue */
+
+$transition: all 1s;
+
+$font-header: 'Oswald', sans-serif;
+$font-family: 'Liu Jian Mao Cao', cursive;
+ 
+body { 
+    width: 1374px; margin: 0 auto; 
+    background-color: $color-two;
+}
+
+// SECTION SPLASH
 
 .splash {
-    background-color: $color-one;
-    h1    {
-        font-size: 50px;
-    }
-    h2 {
-        font-size: 40px;   
-    }
+    background-image: url("https://image.shutterstock.com/image-vector/rock-scissors-paper-hand-gesture-260nw-689530327.jpg"); 
+    min-height: 500px;
+    display: flex;   /* flex wazne */
+    text-align: center;
+    background-size: cover;
 }
 
-.btn {
-    color: blue;
+
+.splash-inner {
+    margin-left: 100px;
+    margin-top: 80px;
+    max-width: 70%;
 }
+
+.splash h1 {
+    font-family: $font-header; 
+    color: $color-three;
+    margin-left: 100px;
+}
+.splash h2 {
+    font-family: $font-header; 
+    color: $color-three;
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+// SECTION TEXT
+.howtoplay .container {
+    background-color: $color-four;
+
+    h1 {
+        font-family: $font-header;     
+        color: $color-one;
+        text-align: center;
+    }
+}
+// BUTTONS
+
+.btn {
+  background-color: $color-one;
+  color: $color-three;
+  padding: 15px 32px;
+  font-size: 16px;
+  margin: 0 auto;
+  display: block;   
+
+  p {
+    color: $color-three;
+    font-family: $font-header; 
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+// MESSAGE
+
+.result {
+    font-family: $font-header;     
+    color: $color-three;
+    text-align: center;
+    font-size: 45px;
+}
+
+
+
+
+// FOOTER
+
+.footer {
+    background-color: $color-two;
+    text-align: center; 
+    padding-top: 100px;
+    
+    h1 {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    
+    li {
+        list-style-type: none;   
+        display: inline-block;
+       .fab {
+            font-size: 42px;
+            color: $color-three;
+            padding: 5px;
+       }
+    }
+}
+.col {
+    padding: 30px;
+}
+
+
+
+
+
+
+

@@ -36,8 +36,7 @@ const playGame = function(playerMove){
     } else {
       return 'Przegrywasz';
     }
-
-}
+  }
 
   const randomNumber = Math.floor(Math.random() * 3 + 1),
  				computerMove = getMoveName(randomNumber);
@@ -50,15 +49,15 @@ const playGame = function(playerMove){
 }
 
 document.getElementById('button-rock').addEventListener('click', function() {
-		playGame('kamień');
+  playGame('kamień');   
 });
 
 document.getElementById('button-paper').addEventListener('click', function() {
-		playGame('papier');
+	playGame('papier');
 });
 
 document.getElementById('button-scissors').addEventListener('click', function() {
-		playGame('nożyce');
+	playGame('nożyce');
 });
 
 

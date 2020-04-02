@@ -1,3 +1,6 @@
 css/style.css linguist-detectable=false
 index,html linguist-detectable=false
 *.js linguist-detectable=true
+
+*.css linguist-detectable=false
+*.js linguist-detectable=true
